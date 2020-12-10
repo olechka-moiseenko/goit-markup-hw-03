@@ -168,6 +168,7 @@ ul {
 .main_page_top {
   background: var(--dark-backround);
   color: white;
+  margin-bottom: 107px;
   padding: 200px;
   display: flex;
   flex-direction: column;
@@ -276,7 +277,6 @@ ul {
 }
 
 .about_us {
-  padding-top: 94px;
   padding-bottom: 94px;
   background-color: var(--grey-backround);
   margin-top: 94px;
