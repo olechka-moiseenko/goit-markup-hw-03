@@ -1,6 +1,7 @@
 :root {
   --common-backgound-color: white;
   --dark-backround: #2f303a;
+  --grey-backround: #f5f4fa;
   --blue-logo: #2196f3;
   --white-logo: white;
   --black-logo: black;
@@ -166,11 +167,11 @@ ul {
 .main_page_top {
   background: var(--dark-backround);
   color: white;
+  padding: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 600px;
 }
 
 .caption {
@@ -184,9 +185,13 @@ ul {
 }
 
 .order_service_button {
-  width: 200px;
-  height: 50px;
+  margin-top: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 32px;
+  padding-right: 32px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
   font-family: var(--document-font);
   font-weight: bold;
   font-size: 16px;
@@ -194,14 +199,10 @@ ul {
   letter-spacing: 0.06em;
   background-color: var(--button-color-blue);
   color: var(--button-text-color);
-  margin-top: 40px;
 }
 
 .porfolio_button {
   margin: 4px;
-  height: 38px;
-  padding-left: 22px;
-  padding-right: 22px;
   font-family: var(--document-font);
   font-style: normal;
   font-weight: 500;
@@ -210,6 +211,10 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   border: none;
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 6px;
+  padding-bottom: 6px;
   background-color: var(--button-color-grey);
   border-radius: 4px;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -268,6 +273,20 @@ ul {
   padding-top: 94px;
 }
 
+.about_us {
+  padding-bottom: 94px;
+  background-color: var(--grey-backround);
+  margin-top: 94px;
+}
+
+.about_us_items > li {
+  width: 270px;
+  background: white;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
 .about_us_items > li > h3 {
   font-weight: 500;
   font-size: 16px;
@@ -287,24 +306,8 @@ ul {
   margin-top: 10px;
 }
 
-.about_us {
-  height: 648px;
-  background-color: #f5f4fa;
-  margin-top: 94px;
-}
-
-.about_us_items > li {
-  width: 270px;
-  height: 368px;
-  background: white;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
-
 .about_us_items > li > img {
   width: 270px;
-  height: 260px;
 }
 
 .portfolio_filter {
@@ -324,8 +327,6 @@ ul {
   margin-top: 30px;
   width: 370px;
   height: 404px;
-  /* left: 215px;
-  top: 262px; */
   background: white;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
