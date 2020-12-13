@@ -18,6 +18,7 @@ body {
   font-family: var(--document-font);
   font-style: normal;
   background-color: var(--common-backgound-color);
+  margin: 0;
 }
 
 h1,
@@ -52,23 +53,25 @@ ul {
 .footer {
   color: white;
   background: var(--dark-backround);
-  height: 252px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
+.footer_block {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .footer_logo,
 .footer_logo:visited {
   color: white;
-  margin-left: 215px;
 }
 
 .footer_address {
   font-style: normal;
   font-weight: normal;
   margin-top: 20px;
-  margin-left: 215px;
   display: flex;
   flex-direction: column;
 }
@@ -86,10 +89,9 @@ ul {
 
 .header {
   display: flex;
-  margin: 0;
-  display: flex;
+  margin: 0 auto;
   height: 80px;
-  width: 100%;
+  width: 1200px;
   justify-content: space-between;
 }
 
@@ -119,7 +121,7 @@ ul {
 }
 
 .header-contacts {
-  margin-right: 215px;
+  /* margin-right: 215px; */
   align-items: center;
   justify-content: flex-end;
   display: flex;
@@ -154,7 +156,7 @@ ul {
 .logo_header:visited {
   color: black;
   margin-right: 93px;
-  margin-left: 215px;
+  /* margin-left: 215px; */
 }
 
 .logo-blue {
@@ -294,7 +296,7 @@ ul {
 .about_us_items > li {
   width: 270px;
   height: 368px;
-  background: #ffffff;
+  background: white;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -349,6 +351,6 @@ ul {
 }
 
 .portfolio_items > ul > li > img {
-  width: 370;
+  width: 370px;
   height: 294;
 }
