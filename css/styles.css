@@ -48,49 +48,23 @@ ul {
 
 .container {
   margin: 0 auto;
-  width: 1600px;
-}
-
-.footer {
-  color: white;
-  background: var(--dark-backround);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.footer_block {
   width: 1200px;
+}
+
+.content_block {
+  padding-top: 94px;
   padding-left: 15px;
-  padding-bottom: 15px;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  margin: 0 auto;
+  padding-right: 15px;
+  display: block;
 }
 
-.footer_logo,
-.footer_logo:visited {
-  color: white;
-}
-
-.footer_address {
-  font-style: normal;
-  font-weight: normal;
-  margin-top: 20px;
+.content_block_items {
+  margin-top: 50px;
+  padding-top: 0;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
 }
 
-.footer_link {
-  color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
-  margin-top: 9px;
-}
-
-.footer_link:hover,
-.footer_link:focus {
-  color: var(--blue-text);
-}
 
 .header {
   display: flex;
@@ -151,6 +125,47 @@ ul {
   margin-left: 50px;
 }
 
+.footer {
+  color: white;
+  background: var(--dark-backround);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer_block {
+  width: 1200px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin: 0 auto;
+}
+
+.footer_logo,
+.footer_logo:visited {
+  color: white;
+}
+
+.footer_address {
+  font-style: normal;
+  font-weight: normal;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_link {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  margin-top: 9px;
+}
+
+.footer_link:hover,
+.footer_link:focus {
+  color: var(--blue-text);
+}
+
 .logo {
   font-size: 26px;
   font-family: var(--logo-font);
@@ -171,9 +186,13 @@ ul {
 }
 
 .main_page_top {
-  background: var(--dark-backround);
+  background-color: var(--dark-backround);
   color: white;
-  padding: 200px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.main_page_top > div {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -231,19 +250,6 @@ ul {
 .porfolio_button:focus {
   color: white;
   background-color: var(--button-color-blue);
-}
-
-.content_block {
-  width: 1170px;
-  padding-top: 94px;
-  display: block;
-}
-
-.content_block_items {
-  margin-top: 50px;
-  padding-top: 0;
-  display: flex;
-  justify-content: space-between;
 }
 
 /* our_features */
